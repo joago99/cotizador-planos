@@ -1,0 +1,15 @@
+# Core
+flask
+ezdxf
+PyMuPDF
+pytesseract
+Pillow
+matplotlib
+shapely
+pdfminer.six
+
+# Opcional — monitor de correo (IMAP)
+imapclient
+
+# Opcional — notificaciones WhatsApp (Twilio)
+twilio

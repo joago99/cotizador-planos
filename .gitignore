@@ -1,0 +1,30 @@
+# Credenciales y configuración real (copiar de settings.example.py)
+config/settings.py
+
+# Datos y logs generados
+data/
+*.csv
+*.pdf
+*.dwg
+*.dxf
+!samples/*.dxf
+
+# Instaladores y binarios third-party (LibreDWG, LibreCAD, Tesseract data)
+tools/
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secretos
+.env
+*.env
+*.key
+*.token
+
+# IDE
+.vscode/
+.idea/
